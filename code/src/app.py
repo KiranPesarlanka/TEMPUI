@@ -1,7 +1,8 @@
 import streamlit as st
 import requests
 
-API_BASE = "http://localhost:8001/api/v1"
+#API_BASE = "http://localhost:8001/api/v1"
+API_BASE = "https://matching-turbulent-outflank.ngrok-free.dev/api/v1"
 
 BILLING_UNITS = ["per_visit", "per_hour", "per_tyre", "per_unit"]
 
